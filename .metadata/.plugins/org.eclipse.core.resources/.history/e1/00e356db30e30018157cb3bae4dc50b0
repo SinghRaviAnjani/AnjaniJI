@@ -1,0 +1,10 @@
+package com.indexController.Dao;
+
+public class Feedbackdao {
+	
+	public void addfeedback(){
+		
+		System.out.println("I am coming");
+	}
+
+}

@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Sun Nov 11 18:35:26 IST 2018
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\RAVIANJANI\\.m2\\repository\\org\\springframework\\spring-web\\4.3.7.RELEASE\\spring-web-4.3.7.RELEASE.jar=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.0\\wtpwebapps\\SinghRaviAnjani\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE.jar
+org.eclipse.jst.j2ee.server\:SinghRaviAnjani=C\:\\Program Files\\Apache Software Foundation\\Tomcat 8.0\\wtpwebapps\\SinghRaviAnjani

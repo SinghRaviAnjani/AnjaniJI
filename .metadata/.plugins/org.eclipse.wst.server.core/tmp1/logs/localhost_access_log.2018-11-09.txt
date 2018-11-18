@@ -1,0 +1,8 @@
+127.0.0.1 - - [09/Nov/2018:19:41:30 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [09/Nov/2018:19:41:40 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [09/Nov/2018:19:42:46 +0530] "GET / HTTP/1.1" 404 994
+127.0.0.1 - - [09/Nov/2018:19:42:48 +0530] "GET /SinghRaviAnjani/ HTTP/1.1" 200 1240
+127.0.0.1 - - [09/Nov/2018:19:43:26 +0530] "GET /addfeed?name=ttggt&email=rrgtrgry&code=4&msg=bdbgzb&rs=submit HTTP/1.1" 404 1008
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:19:47:56 +0530] "GET /SinghRaviAnjani/ HTTP/1.1" 404 1026
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:19:47:57 +0530] "GET /SinghRaviAnjani/ HTTP/1.1" 404 1026
+0:0:0:0:0:0:0:1 - - [09/Nov/2018:19:49:25 +0530] "GET /SinghRaviAnjani/ HTTP/1.1" 404 1026

@@ -1,0 +1,16 @@
+package com.indexController.Dao;
+
+import org.springframework.stereotype.Component;
+
+import com.indexController.entity.Feedback;
+
+@Component
+public class Feedbackdao {
+	
+	
+	public void addfeedback(Feedback fb){
+		
+		System.out.println("I am coming" + fb);
+	}
+
+}

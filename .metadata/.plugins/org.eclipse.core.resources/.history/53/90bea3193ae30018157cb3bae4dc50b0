@@ -1,0 +1,38 @@
+package com.indexController;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import com.indexController.Dao.Feedbackdao;
+import com.indexController.entity.Feedback;
+
+@Controller
+public class IndexController {
+	
+	@Autowired
+	Feedbackdao fdo;
+	  
+	@RequestMapping("/hom")
+	public String Home()
+	{
+		 
+		return "index.jsp";
+	}
+	
+	@RequestMapping("/feed")
+	public String feedback(){
+		
+		return "feedback.jsp";
+	}
+	
+	@RequestMapping("/addfeed")
+	public String addfeedback(@ModelAttribute Feedback feedbackk){
+		
+		Feedback feedbackk = new Feedback(name,email,reg,code,msg);
+		fdo.addfeedback();
+		
+		return "welcome.jsp";
+	}
+
+}

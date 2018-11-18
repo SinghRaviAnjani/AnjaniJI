@@ -1,0 +1,21 @@
+package com.indexController;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+@Controller
+public class IndexController {
+	  
+	@RequestMapping("/hom")
+	public String Home()
+	{
+		 
+		return "index.jsp";
+	}
+	
+	@RequestMapping("/feed")
+	public String feedback(){
+		
+		return "feedback.jsp";
+	}
+
+}

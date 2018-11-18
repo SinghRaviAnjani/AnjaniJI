@@ -1,0 +1,5 @@
+package com.indexController.entity;
+
+public class Feedback {
+
+}
